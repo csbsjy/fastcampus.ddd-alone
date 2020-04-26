@@ -2,3 +2,17 @@
 GET {{host}}/
 
 ###
+
+###
+GET {{host}}/api/pokemons/1
+
+###
+
+###
+GET {{host}}/api/trainers/1
+
+###
+
+GET {{host}}/api/pokemons/1/capture-by/1
+
+###
