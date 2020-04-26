@@ -15,7 +15,7 @@ public class PokedexNumber {
 
     private void validate(int pokedexNumber) {
         if(pokedexNumber < MIN_INDEX_NUMBER || pokedexNumber >= MAX_INDEX_NUMBER){
-            throw new IllegalArgumentException();
+            throw new IllegalArgumentException(String.format("도감번호는 %d이상 %d이하여야 합니다", MIN_INDEX_NUMBER, MAX_INDEX_NUMBER));
         }
     }
 
